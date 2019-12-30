@@ -24,3 +24,7 @@ function johnLennonFacts(facts) {
   
   return exclamationFacts;
 }
+
+function iLoveTheBeatles(num) {
+  let 
+}
