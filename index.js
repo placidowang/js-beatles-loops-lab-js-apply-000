@@ -1,34 +1,26 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments) {
-  let sentences = [];
+  let roles = [];
+  
+  // musicians.forEach((musician, i) => {
+  //   roles.push(`${musician} plays ${instruments[i]}`);
+  // });
   
   for (let i = 0; i < musicians.length; i++) {
-    sentences.push(musicians[i] + " plays " + instruments[i]);
+    roles.push(`${musicians[i]} plays ${instruments[i]}`);
   }
   
-  return sentences;
+  return roles;
 }
 
 function johnLennonFacts(facts) {
-  let factsExclamation = [];
   let i = 0;
+  let exclamationFacts = [];
   
   while (i < facts.length) {
-    factsExclamation.push(facts[i] + "!!!");
+    exclamationFacts.push(facts[i] + "!!!");
     i++;
   }
   
-  return factsExclamation;
-}
-
-function iLoveTheBeatles(num) {
-  let array = [];
-  
-  do {
-    array.push("I love the Beatles!");
-    num++;
-  }
-  while (num < 15);
-  
-  return array;
+  return exclamationFacts;
 }
