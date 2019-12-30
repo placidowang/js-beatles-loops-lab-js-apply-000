@@ -26,5 +26,13 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(num) {
-  let 
+  let exclamations = [];
+  
+  do {
+    exclamations.push(`I love the Beatles!`);
+    num++;
+  }
+  while (num < 15);
+  
+  return exclamations;
 }
